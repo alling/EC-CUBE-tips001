@@ -1,0 +1,5 @@
+<!--{if $smarty.server.PHP_SELF == "/index.php"}-->
+     <p>only top</p>
+<!--{else}-->
+     <p>other pages</p>
+<!--{/if}-->
